@@ -56,7 +56,7 @@ public class SpringDemoController {
                 username = URLDecoder.decode(value, "UTF-8");
             }
         }
-        map.put("username",username);
+        map.put("result",username);
         return map;
     }
 }
